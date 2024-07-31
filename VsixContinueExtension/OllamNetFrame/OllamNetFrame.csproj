@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>OllamNetFrame</RootNamespace>
     <AssemblyName>OllamNetFrame</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,15 +51,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommonLib\CommonLib.csproj">
+    <ProjectReference Include="..\..\CommonLib\CommonLib.csproj">
       <Project>{9056865e-dd34-4698-93f7-9ce7319aa06e}</Project>
       <Name>CommonLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Object.Api\Object.Api.csproj">
+    <ProjectReference Include="..\..\Object.Api\Object.Api.csproj">
       <Project>{a439cc39-d6ab-4329-883b-d9ce381288fd}</Project>
       <Name>Object.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OllamaClient\OllamaClient.csproj">
+    <ProjectReference Include="..\..\OllamaClient\OllamaClient.csproj">
       <Project>{cf7ee218-4b54-4dd6-b9bc-c0ed2d1f10ea}</Project>
       <Name>OllamaClient</Name>
     </ProjectReference>

@@ -9,17 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{3F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Share", "Share", "{96757F7A-EB61-406B-9AE8-970F41BD3B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object.Api", "Object.Api\Object.Api.csproj", "{A439CC39-D6AB-4329-883B-D9CE381288FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object.Api", "..\Object.Api\Object.Api.csproj", "{A439CC39-D6AB-4329-883B-D9CE381288FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaClient", "OllamaClient\OllamaClient.csproj", "{CF7EE218-4B54-4DD6-B9BC-C0ED2D1F10EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaClient", "..\OllamaClient\OllamaClient.csproj", "{CF7EE218-4B54-4DD6-B9BC-C0ED2D1F10EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{9056865E-DD34-4698-93F7-9CE7319AA06E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "..\CommonLib\CommonLib.csproj", "{9056865E-DD34-4698-93F7-9CE7319AA06E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueExtension", "ContinueExtension\ContinueExtension.csproj", "{2FBAC873-24DB-4BC2-913F-39525B808C57}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueExtensionVsix", "ContinueExtensionVsix\ContinueExtensionVsix.csproj", "{EBBD0B73-B19F-4E60-9815-0E0AC203F7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaTest", "OllamaTest\OllamaTest.csproj", "{0EC3F634-EFDE-48A0-A1AD-BA135329E979}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaTest", "..\OllamaTest\OllamaTest.csproj", "{0EC3F634-EFDE-48A0-A1AD-BA135329E979}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamNetFrame", "OllamNetFrame\OllamNetFrame.csproj", "{FD7FB76E-4578-45E0-B7EC-17B4753D74A2}"
 EndProject

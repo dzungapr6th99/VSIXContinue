@@ -13,7 +13,7 @@ using System.Net.Http;
 using System.IO;
 namespace OllamaClient
 {
-    public class Client
+    public class Client : IClient
     {
         private string _ip { get; set; }
         private string _port { get; set; }
@@ -52,7 +52,7 @@ namespace OllamaClient
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 
                 HttpResponseMessage response = client.SendAsync(httpWebRequest).Result;
-                using (var stream =  response.Content.ReadAsStreamAsync().Result)
+                using (var stream = response.Content.ReadAsStreamAsync().Result)
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -86,7 +86,7 @@ namespace OllamaClient
             {
                 return null;
             }
-         
+
         }
 
         public async Task<List<ResponseChat>> Chat(Chat request, List<Message> messages, bool isDone)
